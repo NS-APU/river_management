@@ -12,6 +12,7 @@
     <script>
         var video = document.getElementById('video');
         var videoSrc = 'output.m3u8'; // HLSストリームのURLを指定
+	console.log(video);
 
         if (Hls.isSupported()) {
             var hls = new Hls();
