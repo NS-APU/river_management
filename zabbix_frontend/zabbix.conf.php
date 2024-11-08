@@ -7,7 +7,7 @@ $DB['SERVER']   = 'postgres';
 $DB['PORT']     = '5432';
 $DB['DATABASE'] = 'zabbix';
 $DB['USER']     = 'zabbix';
-$DB['PASSWORD'] = 'zabbix';
+$DB['PASSWORD'] = 'zabbix-app';
 
 // Schema name. Used for PostgreSQL.
 $DB['SCHEMA'] = getenv('DB_SERVER_SCHEMA');
