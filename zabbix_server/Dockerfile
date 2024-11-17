@@ -9,3 +9,5 @@ USER 1997
 
 COPY ./.odbc.ini /etc/odbc.ini
 COPY ./.odbcinst.ini /etc/odbcinst.ini
+
+COPY --chmod=755 ./line_notify.sh /usr/lib/zabbix/alertscripts
