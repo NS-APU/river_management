@@ -1,8 +1,6 @@
 #!/bin/bash
 # Zabbixから件名とメッセージ内容を受け取るシェルスクリプト
 
-source .env
-
 SUBJECT=$1  # Zabbixから渡される件名
 MESSAGE=$2  # Zabbixから渡されるメッセージ内容
 
