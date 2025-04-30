@@ -16,5 +16,5 @@ FROM postgres:latest
 RUN apt-get update && apt-get install -y unixodbc unixodbc-bin
 
 # ODBC 設定ファイルを追加
-COPY odbc.ini /etc/odbc.ini
-COPY odbcinst.ini /etc/odbcinst.ini
+COPY .odbc.ini /etc/odbc.ini
+COPY .odbcinst.ini /etc/odbcinst.ini

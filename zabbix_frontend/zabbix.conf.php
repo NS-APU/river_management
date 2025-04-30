@@ -3,11 +3,11 @@
 global $DB, $HISTORY;
 
 $DB['TYPE']     = 'POSTGRESQL';
-$DB['SERVER']   = 'postgres';
+$DB['SERVER']   = 'terraform-20241112101235696800000001.c7kkk4amyjm2.ap-northeast-1.rds.amazonaws.com';
 $DB['PORT']     = '5432';
-$DB['DATABASE'] = 'zabbix';
+$DB['DATABASE'] = 'water_level';
 $DB['USER']     = 'zabbix';
-$DB['PASSWORD'] = 'zabbix';
+$DB['PASSWORD'] = 'zabbix-app';
 
 // Schema name. Used for PostgreSQL.
 $DB['SCHEMA'] = getenv('DB_SERVER_SCHEMA');
